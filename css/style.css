@@ -1,0 +1,23 @@
+*,html,body
+{
+	margin: 0;
+	padding: 0;
+}
+	header
+{
+	background-color: grey;
+	height: 112px;
+	line-height: 112px
+}	
+	ul
+{
+	list-style: none;
+}	
+ul li
+{
+	display: inline-block;
+}	
+	header nav
+{
+	float: right;
+}	

@@ -1,23 +1,44 @@
-*,html,body
+*,html,body 
 {
 	margin: 0;
 	padding: 0;
 }
-	header
+
+header
 {
-	background-color: grey;
+	background-color: gray;
 	height: 112px;
-	line-height: 112px
-}	
-	ul
+	line-height: 112px;
+}
+
+ul
 {
 	list-style: none;
-}	
+	font-size: 12px;
+}
+
 ul li
 {
-	display: inline-block;
-}	
-	header nav
+	display:inline-block;
+	
+}
+
+header nav
 {
-	float: right;
-}	
+	float: left;
+}
+
+header nav ul li a
+{
+	padding-right: 30px;
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+	transition: all 0.5s eas;
+}
+
+header nav ul li a:hover
+{
+	text-decoration: none;
+	color: red;
+}
